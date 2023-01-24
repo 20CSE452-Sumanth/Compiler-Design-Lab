@@ -59,9 +59,9 @@ void main()
     fclose(f2);
     fclose(f3);
     fclose(f1);
-    printf("\nThe no's in the program are \t");
+    printf("\nThe Constants in the program are \t");
     for (j = 0; j < i; j++)
-        printf("%d", num[j]);
+        printf("%d\t", num[j]);
     printf("\n");
     f2 = fopen("identifier", "r");
     k = 0;
